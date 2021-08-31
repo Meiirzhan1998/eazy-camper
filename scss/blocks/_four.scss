@@ -1,0 +1,56 @@
+@import "../common";
+
+.four {
+  padding: 232px 0 251px;
+
+  &__title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 108px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    height: 293px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item+&__item {
+    margin-left: 41px;
+  }
+
+  &__item-img {
+    padding-bottom: 64px;
+  }
+
+  &__item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 31px;
+  }
+
+  &__item-descr {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    padding-bottom: 16px;
+  }
+}

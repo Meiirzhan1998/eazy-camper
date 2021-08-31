@@ -1,0 +1,81 @@
+@import "../common";
+
+.second {
+  padding: 170px 0 263px;
+
+  &__title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    min-height: 293px;
+    width: 254px;
+    margin: 108px 0 0;
+    padding: 0;
+  }
+
+  &__item+&__item {
+    margin-left: 2em;
+  }
+
+  &__item-img {
+    padding-bottom: 64px;
+  }
+
+  &__item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 31px;
+  }
+
+  &__item-descr {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+  }
+}
+
+.show-me__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+  &__item {
+    width: 254px;
+  }
+}
+
+#show-me__item+#show-me__item {
+  margin-left: 2em;
+}

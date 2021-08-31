@@ -1,0 +1,78 @@
+@import "../common";
+
+.header {
+  &__inner {
+    padding: 2em;
+    min-height: 650px;
+    background-image: url('../img/bg-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  max-width: 70%;
+  margin-right: auto;
+}
+
+.menu-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: auto;
+  width: 86px;
+  height: 53px;
+  background-color: #fff;
+  border-radius: 26.5px;
+
+  &__img {
+    width: 32px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.menu-toggler {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+
+  &__img {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.menu-toggler img:hover {
+  transform: scale(1.5);
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  border-radius: 0.5em;
+  background-color: #F7F7F7;
+  padding: 1em;
+  margin: 75px 0 0 -200px;
+
+  &__link {
+    display: block;
+    border-bottom: 1px dotted #333;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em;
+  }
+
+  &__link:hover {
+    color: #F78065;
+  }
+}
+
+.menu-show {
+  display: block;
+}

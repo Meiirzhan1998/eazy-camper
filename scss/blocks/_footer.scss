@@ -1,0 +1,42 @@
+@import "../common";
+
+.footer {
+  padding: 0 0 63px 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #F7F7F7;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__menu-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  &__menu-item {
+    margin-left: auto;
+  }
+
+  &__menu-item+&__menu-item {
+    margin-left: 48px;
+  }
+}
